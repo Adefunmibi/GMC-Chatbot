@@ -16,7 +16,7 @@ import streamlit as st
 
 
 #Load the text file and preposess the data
-with open ('C:\Users\CORONA\Desktop\Deployment\Tobacco_leaves.txt',encoding='utf-8') as f:
+with open ('Tobacco_leaves.txt',encoding='utf-8') as f:
     data=f.read().replace('\n',' ')
 
 
